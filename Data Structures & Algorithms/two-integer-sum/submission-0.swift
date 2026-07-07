@@ -1,9 +1,5 @@
 class Solution {
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
-        if nums.count == 2, nums[0] + nums[1] == target {
-            return [0, 1]
-        }
-
         /// Brute force iteration
         /// Time: O(n²)
         /// Space: O(1)
